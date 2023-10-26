@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="nav-left">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ </a></li>
+                <li><a href="sanpham.html">SẢN PHẨM</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="index.html">TIN TỨC</a></li>
+            </ul>
+        </div>
+        <div id="nav-right">
+            <ul>
+                <li>
+                    <input type="text" id="search-input" placeholder="Tìm sản phẩm ...">
+                    <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="sign-up-area">
+        <h1 class="tieude">Đăng Ký Tài Khoản </h1>
+        <div id="sign-up-form">
+            <input type="text" id="username" placeholder="Tên Đăng Nhập..">
+            <input type="email" id="email" placeholder="Email..">
+            <input type="password" id="password" placeholder="Mật Khẩu..">
+            <input type="password" id="confirmed-password" placeholder="Nhập Lại Mật Khẩu..">
+            <button id="sign-up-btn" onclick="checkRegister()">Sign Up</button>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-info">
+            <h1>ShopHKT</h1>
+            <div id="footer-icon">
+                <a href="" i class="fab fa-facebook-square"></a>
+                <a href="" i class="fab fa-instagram-square"></a>
+                <a href="" i class="fab fa-twitter-square"></a>
+                <a href="" i class="fab fa-reddit-square"></a>
+                <a href="" i class="fab fa-youtube-square"></a>
+                <p>Liên hệ: buututhinh@gmail.com</p>
+            </div>
+        </div>
+        <div id="footer-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.96534344617!2d106.6528481!3d10.7928192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293c4d01354d%3A0xf3c12d012ca04492!2sMindX!5e0!3m2!1svi!2s!4v1691069193764!5m2!1svi!2s"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>

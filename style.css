@@ -1,0 +1,304 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7faf1;
+    font-family:  Helvetica;
+}
+
+#nav {
+    width: 100%;
+    height: 80px;
+    background-color: #F05D23;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#nav ul li a:hover {
+    color: #260C1A;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.image {
+    width: 100%;
+    height: 800px;
+}
+
+#search-input {
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+}
+
+#search-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#about {
+    width: 70%;
+    background-color: #b4c8ce;
+    margin: 20px auto ;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 20px 20px ;
+    font-size: 25px;
+}
+
+#about-title {
+    color: #F05D23;
+    font-size: 45px;
+    text-align: center;
+    margin: 10px;
+    font-family: helvetica;
+}
+
+.post-btn {
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #06344c;
+    color: #f7faf1;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+#muccaulong {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    background-color: #b4c8ce;
+    margin: 20px auto ;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 20px 20px ;
+    font-size: 25px;
+}
+
+.anhcaulong {
+    margin: 5px;
+}
+
+#tensanpham {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tensanpham a {
+    text-decoration: none;
+    font-size: 35px;
+
+}
+
+#tensanpham a:hover {
+    font-weight: bold;
+}
+
+#post-1, #post-2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1% auto;
+}
+
+.post-img, .post-content {
+    width: 41%;
+}
+
+.post-img img {
+     width: 100%;
+     height: 100%;
+     opacity: 0.8;
+     border-radius: 25px;
+}
+
+.post-img img:hover {
+    opacity: 1;
+}
+
+.post-title {
+    font-size: 32px;
+    color: #06344c;
+}
+
+.post-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.post-content {
+    border: 3px double;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+#footer {
+    display: flex;
+    background-color: #F05D23;
+    justify-content: space-around;
+}
+
+#footer-info h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#footer-icon a {
+    font-size: 50px;
+    margin: 0 5px;
+    color: white;
+}
+
+#footer-map {
+    margin: 10px;
+}
+
+#footer-info {
+    font-size: 20px;
+    color: white;
+}
+
+#nav {
+    background-color: #F05D23;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#left, #right {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+#left {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+#left li {
+    padding: 0 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#left li a {
+    text-decoration: none;
+    color: blue;
+}
+
+#right button, #sign-up-form button {
+    font-size: 20px;
+    margin: 15px;
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#sign-up-area {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    text-align: center;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+#sign-up-form input {
+    width: 95%;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 1;
+    height: 50px;
+    font-size: 20px;
+}
+
+.bocuc {
+    display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 25px;
+}
+
+.danhmuc {
+    margin-right: 100px;
+    background-color: gainsboro;
+    width: 1400px;
+    margin-top: 10px;
+    height: 700px;
+}
+
+.danhmuc h2 {
+    text-align: center;
+}
+
+.danhmuc ul li {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.lienhe {
+    color: red;
+}
+.product-view h1 {
+    color: #F05D23;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.product-view hr {
+    margin: 0;
+    margin-left: 50px;
+    width: 25%;
+    height: 3px;
+    background-color: #F05D23;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product img {
+    width: 250px;
+    height: 300px;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bocuc ul li a {
+    color: black;
+    text-decoration: none;
+}
